@@ -15,6 +15,10 @@ public class Program {
 		
 		set.add("Computer");
 		
+//		set.remove("Computer");
+//		set.removeIf(x -> x.length() >= 3);
+		set.removeIf(x -> x.charAt(0) == 'T');
+		
 		System.out.println("Na lista contem NoteBook: " + set.contains("NoteBook"));
 		System.out.println();
 		System.out.println("Lista de produtos inseridos no Set: ");
