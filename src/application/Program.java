@@ -13,6 +13,8 @@ public class Program {
 		set.add("NoteBook");
 		set.add("Tablet");
 		
+		set.add("Computer");
+		
 		System.out.println("Na lista contem NoteBook: " + set.contains("NoteBook"));
 		System.out.println();
 		System.out.println("Lista de produtos inseridos no Set: ");
